@@ -15,11 +15,12 @@
   <div class="container">
     <br />
     <div id="banner">
-      
-      <p id="pluginHeader"> 
+
+      <p id="pluginHeader">
         <!-- <img src="logo.png" class="logo" /> -->
-         GPT Assistant <a href="index.html" target="_blank" class="open-in-new-tab">Open in new tab
-        </a> </p>
+        GPT Assistant <a href="index.html" target="_blank" class="open-in-new-tab">Open in new tab
+        </a>
+      </p>
     </div>
     <hr />
     <form>
@@ -51,12 +52,17 @@
           data-placement="top" title="Makes a call to chatgpt APIs">
           Ask GPT!
         </button>
+
+       
       </div>
       <br />
-      <div >
+      <div id="spinner" class="spinner"></div>
+    
+      <div>
         <textarea class="form-control" id="result" readonly rows="5" cols="10"
-          placeholder="Output will come here, wait for sometime after submitting the query!!"
-          required></textarea>
+          placeholder="Output will come here, wait for sometime after submitting the query!!" required></textarea>
+
+        <button class="btn btn-primary" id="copy-to-clipboard">Copy to Clipboard</button>
       </div>
   </div>
   </form>
