@@ -1,0 +1,22 @@
+body {
+  min-width: 585px;
+  min-height: 800px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+#banner {
+  color: #19bf5b !important;
+}
+
+#pluginHeader{
+  font-size: 25px;
+}
+.open-in-new-tab{
+  font-size: 15px;
+}

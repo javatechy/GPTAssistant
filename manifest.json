@@ -1,0 +1,21 @@
+{
+    "name": "GPT Assistant",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png"
+    },
+    "description": "GPT extension has a range of capabilities, such as rephrase sentences(+grammer), code generation/review",
+    "icons": {
+        "16": "logo.png",
+        "32": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "permissions": [
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
